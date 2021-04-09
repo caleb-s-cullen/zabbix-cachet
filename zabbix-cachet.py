@@ -12,7 +12,7 @@ import threading
 import logging
 import yaml
 import pytz
-from pyzabbix import ZabbixAPI, ZabbixAPIException
+from pyzabbix.api import ZabbixAPI, ZabbixAPIException
 from operator import itemgetter
 
 __author__ = 'Artem Alexandrov <qk4l()tem4uk.ru>'
